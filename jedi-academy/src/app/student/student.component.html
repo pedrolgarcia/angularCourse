@@ -1,0 +1,11 @@
+<div *ngIf="student">
+  Student: <a href="#" (click)="clicked()">{{ student?.name }}</a> <!-- indicamos com parênteses um evento -->
+  <!--<div [hidden]='!student.isJedi'> o hidden é controlado por css cuidado --> <!-- property binding -->
+  <div *ngIf="student?.isJedi"> <!-- usando a diretiva if para controlar a visibilidade -->
+    Jedi Temple: {{ student?.temple }} <button (click)="description.focus()">Focus</button><br />
+    <textarea #description></textarea> <!-- referenciar um elemento do dom usamos # -->
+  </div>
+</div>
+<p *ngIf="!student">
+  Sem dados para exibir!
+</p>
