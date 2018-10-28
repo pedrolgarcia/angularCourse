@@ -370,5 +370,76 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua Itirapina",
+      "number": "115",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua Legal ",
+      "number": "111",
+      "optionalAddress": "AP201",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Pedro",
+      "email": "teste@teste.com",
+      "emailConfirmation": "teste@teste.com",
+      "address": "Rua Maneira",
+      "number": "111",
+      "optionalAddress": "seila",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Pedro Lopes",
+      "email": "teste@teste.com",
+      "emailConfirmation": "teste@teste.com",
+      "address": "Rua Teste",
+      "number": "1234",
+      "optionalAddress": "Ap teste",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 4,
+          "menuId": "donut"
+        }
+      ],
+      "id": 4
+    }
+  ]
 }
